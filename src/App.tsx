@@ -46,14 +46,14 @@ const App = () => {
                 <div className="flex items-center gap-8">
                     {info.isToday ? (
                         <>
-                            <img src={Koteseni} alt="Koteseni" className="animate-spin" width="50px" />
+                            <img src={Koteseni} alt=":Koteseni:" className="animate-spin" width="50px" />
                             <h2 className="text-3xl text-sky-500">DNES!</h2>
-                            <img src={Koteseni} alt="Koteseni" className="animate-spin" width="50px" />
+                            <img src={Koteseni} alt=":Koteseni:" className="animate-spin" width="50px" />
                         </>
                     ) : (
                         <>
                             <h2 className="text-3xl"><span className="text-sky-500">{info.daysUntil}</span> {info.daysUntil === 1 ? "deň" : info.daysUntil >= 2 && info.daysUntil <= 4 ? "dni" : "dní"}</h2>
-                            <img src={Koteseni} alt="Koteseni" className="animate-spin" width="50px" />
+                            <img src={Koteseni} alt=":Koteseni:" className="animate-spin" width="50px" />
                         </>
                     )}
                 </div>
